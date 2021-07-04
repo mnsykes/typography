@@ -1,0 +1,158 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #f0f0f0;
+}
+
+#home-btn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  padding: 15px;
+  border-radius: 50%;
+}
+
+#home-btn a {
+  color: white;
+}
+
+#home-btn a:hover {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.navbar {
+  top: 0;
+  position: -webkit-sticky;
+  position: sticky;
+  background: #ff9a8a;
+}
+
+.navbar .navbar-brand {
+  font-family: "Sedgwick Ave Display", cursive;
+  font-size: 48px;
+  color: #fdfdfe;
+}
+
+.navbar button {
+  color: #fdfdfe;
+}
+
+.article {
+  -webkit-box-shadow: 3px 6px 10px 10px rgba(51, 51, 51, 0.1);
+          box-shadow: 3px 6px 10px 10px rgba(51, 51, 51, 0.1);
+  padding: 50px 50px;
+  background: #fdfdfe;
+}
+
+.article-wrapper {
+  margin: 0 auto;
+  padding-top: 75px;
+  max-width: 84ch;
+}
+
+.article-wrapper .header-image {
+  text-align: center;
+  width: 100%;
+  height: 300px;
+}
+
+.article-wrapper .header-image img {
+  height: 100%;
+  width: 100%;
+}
+
+.article-wrapper .lead {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.article-wrapper h1 {
+  font-weight: bold;
+  font-size: 45px;
+}
+
+.article-wrapper h2 {
+  font-weight: bold;
+}
+
+.article-wrapper p {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.article-wrapper .dummy-link {
+  color: #1e488f;
+  font-weight: bold;
+}
+
+.article-wrapper .dummy-link a:hover {
+  text-decoration: underline;
+}
+
+.article-wrapper .note,
+.article-wrapper .bonus-item,
+.article-wrapper .best-practice {
+  background: rgba(255, 154, 138, 0.2);
+  -webkit-box-shadow: 5px 5px 10px 2px rgba(255, 154, 138, 0.8);
+          box-shadow: 5px 5px 10px 2px rgba(255, 154, 138, 0.8);
+  padding: 15px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.article-wrapper .note h3,
+.article-wrapper .bonus-item h3,
+.article-wrapper .best-practice h3 {
+  font-weight: bold;
+}
+
+.article-wrapper .note p,
+.article-wrapper .bonus-item p,
+.article-wrapper .best-practice p {
+  font-size: 16px;
+}
+
+.article-wrapper .card {
+  background: #fdfdfe;
+  border: none;
+  border-left: 25px solid #ff9a8a;
+}
+
+.article-wrapper .card .col-md-2 {
+  padding: 20px 10px;
+}
+
+.article-wrapper .card .col-md-2 img {
+  max-height: 150px;
+  max-width: 150px;
+}
+
+.article-wrapper .card .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.article-wrapper .card .social img {
+  height: 50px;
+  width: 50px;
+}
+
+.article-wrapper .card .social img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  cursor: pointer;
+}
+
+.article-wrapper .card p {
+  font-size: 16px;
+}
+/*# sourceMappingURL=main.css.map */
